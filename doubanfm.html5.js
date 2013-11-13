@@ -25,6 +25,7 @@
             var that = this;
             var song = songs[i];
             console.log(song);
+            // todo change title of the page
             var html = '<img class="cover" src="'+song.picture+'">'
             var rightPanel = song.title+'<br>'+song.artist+'<br>';
             if (song.like) {

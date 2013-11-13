@@ -1,1 +1,0 @@
-javascript:(function(){var u='http://2.xctest.sinaapp.com/Douban-FM-html5-bookmark/doubanfm.html5';var r='0.1.0';$('body').append('<script src="'+u+'.js?r='+r+'"></script><link href="'+u+'.css?='+r+'" rel="stylesheet" type="text/css">');})();

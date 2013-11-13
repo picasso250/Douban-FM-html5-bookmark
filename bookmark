@@ -1,0 +1,1 @@
+javascript:(function(){$('body').append('<script id="doubanfmhtm5js" src="http://localhost/doubanfm.html5.js?r='+Math.random()+'"></script>'); })();

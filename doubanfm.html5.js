@@ -25,10 +25,12 @@
             var that = this;
             var song = songs[i];
             console.log(song);
-            var html = '<img src="'+song.picture+'"><br>'+song.title+'<br>'+song.artist+'<br>';
+            var html = '<img class="cover" src="'+song.picture+'">'
+            var rightPanel = song.title+'<br>'+song.artist+'<br>';
             if (song.like) {
-                html += '<red>♥';
+                rightPanel += '♥';
             };
+            html += '<div class="r">'+rightPanel+'</div>'
             this.wrap.html(html);
             var soundfile = song.url;
             this.el.mp3 = new Audio(soundfile);

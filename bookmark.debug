@@ -1,1 +1,1 @@
-javascript:(function(){var u='http://localhost/xctest/2/Douban-FM-html5-bookmark/doubanfm.html5';$('body').append('<script src="'+u+'.js?r='+Math.random()+'"></script><link href="'+u+'.css?='+Math.random()+'" rel="stylesheet" type="text/css">');})();
+javascript:(function(){var u='http://localhost/xctest/2/Douban-FM-html5-bookmark/doubanfm.html5';var r=Math.random();$('body').append('<script src="'+u+'.js?r='+r+'"></script><link href="'+u+'.css?='+r+'" rel="stylesheet" type="text/css">');})();

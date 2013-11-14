@@ -1,3 +1,5 @@
 #fm-player .cover {
     float: left;
+    width: 245px;
+    height: 245px;
 }
